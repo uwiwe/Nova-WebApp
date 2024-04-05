@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Nova-WebApp.Server.props" />
+</Project>

@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Name": "Nova-WebApp.Server\\Nova-WebApp.Server.csproj",
+        "Action": "Start"
+      },
+      {
+        "Name": "nova-webapp.client\\nova-webapp.client.esproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

@@ -1,0 +1,61 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ubwiw\\source\\repos\\Nova-WebApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{11B0BE0B-75E8-4553-B980-AC93AED9924F}|Nova-WebApp.Server\\Nova-WebApp.Server.csproj|c:\\users\\ubwiw\\source\\repos\\nova-webapp\\nova-webapp.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11B0BE0B-75E8-4553-B980-AC93AED9924F}|Nova-WebApp.Server\\Nova-WebApp.Server.csproj|solutionrelative:nova-webapp.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11B0BE0B-75E8-4553-B980-AC93AED9924F}|Nova-WebApp.Server\\Nova-WebApp.Server.csproj|c:\\users\\ubwiw\\source\\repos\\nova-webapp\\nova-webapp.server\\nova-webapp.server.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{11B0BE0B-75E8-4553-B980-AC93AED9924F}|Nova-WebApp.Server\\Nova-WebApp.Server.csproj|solutionrelative:nova-webapp.server\\nova-webapp.server.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{fbcae063-e2c0-4ab1-a516-996ea3dafb72}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Nova-WebApp.Server.csproj",
+              "DocumentMoniker": "C:\\Users\\ubwiw\\source\\repos\\Nova-WebApp\\Nova-WebApp.Server\\Nova-WebApp.Server.csproj",
+              "RelativeDocumentMoniker": "Nova-WebApp.Server\\Nova-WebApp.Server.csproj",
+              "ToolTip": "C:\\Users\\ubwiw\\source\\repos\\Nova-WebApp\\Nova-WebApp.Server\\Nova-WebApp.Server.csproj",
+              "RelativeToolTip": "Nova-WebApp.Server\\Nova-WebApp.Server.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-04-05T21:31:19.415Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ubwiw\\source\\repos\\Nova-WebApp\\Nova-WebApp.Server\\Program.cs",
+              "RelativeDocumentMoniker": "Nova-WebApp.Server\\Program.cs",
+              "ToolTip": "C:\\Users\\ubwiw\\source\\repos\\Nova-WebApp\\Nova-WebApp.Server\\Program.cs",
+              "RelativeToolTip": "Nova-WebApp.Server\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-05T21:13:04.511Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

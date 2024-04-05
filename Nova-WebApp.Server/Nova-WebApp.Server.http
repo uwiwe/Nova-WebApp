@@ -1,0 +1,6 @@
+@Nova_WebApp.Server_HostAddress = http://localhost:5138
+
+GET {{Nova_WebApp.Server_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
