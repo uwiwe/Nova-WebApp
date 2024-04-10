@@ -1,0 +1,78 @@
+//breakpoints
+$mobile: 360px;
+$tablet: 361px;
+$laptop: 1024px;
+
+@mixin mobile {
+  @media screen and (min-width: $mobile) {
+    @content;
+  }
+};
+
+@mixin tablet {
+  @media screen and (min-width: $tablet) {
+    @content;
+  }
+};
+
+@mixin laptop {
+  @media screen and (min-width: $laptop) {
+    @content;
+  }
+};
+
+// colors 
+
+:root {
+  --primary-color: #003250;
+  --secondary-color: #04162E;
+  --danger-color: #FE4A42;
+  --dark-color: #343434;
+  --dark-color-2: #666;
+  --dark-color-3: rgb(17, 17, 17);
+  --text-color: #F4F4F4;
+  --text-color-light: #ffffff;
+}
+
+$primary-color: var(--primary-color);
+$secondary-color: var(--secondary-color);
+$danger-color: var(--danger-color);
+$dark-color: var(--dark-color);
+$dark-color-2: var(--dark-color-2);
+$dark-color-3: var(--dark-color-3);
+$text-color: var(--text-color);
+$text-color-light: var(--text-color-light);
+
+*,
+*::after,
+*::before{
+  box-sizing: border-box;
+}
+
+body {
+  background-color: $secondary-color;
+  position: absolute;
+  margin: 0;
+
+  @include laptop{
+    position: relative;
+  }
+}
+
+
+img{
+  max-width: 100%;
+  height: auto;
+}
+
+/*
+
+#root{
+  @include laptop{
+    display: grid;
+    grid-template-columns: 10% 90%;
+    grid-template-rows:  10vh 1fr; 
+   }
+}
+
+*/
