@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Nova-WebApp.Server")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+784e6973c35605dc92ab02a9691ca96795fff379")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+24cd0525807c3325cc416696427644e0a95a7917")]
 [assembly: System.Reflection.AssemblyProductAttribute("Nova-WebApp.Server")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Nova-WebApp.Server")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
