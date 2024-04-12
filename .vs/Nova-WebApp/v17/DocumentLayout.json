@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\ubwiw\\source\\repos\\Nova-WebApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{11B0BE0B-75E8-4553-B980-AC93AED9924F}|Nova-WebApp.Server\\Nova-WebApp.Server.csproj|c:\\users\\ubwiw\\source\\repos\\nova-webapp\\nova-webapp.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{11B0BE0B-75E8-4553-B980-AC93AED9924F}|Nova-WebApp.Server\\Nova-WebApp.Server.csproj|solutionrelative:nova-webapp.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{11B0BE0B-75E8-4553-B980-AC93AED9924F}|Nova-WebApp.Server\\Nova-WebApp.Server.csproj|c:\\users\\ubwiw\\source\\repos\\nova-webapp\\nova-webapp.server\\nova-webapp.server.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{11B0BE0B-75E8-4553-B980-AC93AED9924F}|Nova-WebApp.Server\\Nova-WebApp.Server.csproj|solutionrelative:nova-webapp.server\\nova-webapp.server.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11B0BE0B-75E8-4553-B980-AC93AED9924F}|Nova-WebApp.Server\\Nova-WebApp.Server.csproj|c:\\users\\ubwiw\\source\\repos\\nova-webapp\\nova-webapp.server\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11B0BE0B-75E8-4553-B980-AC93AED9924F}|Nova-WebApp.Server\\Nova-WebApp.Server.csproj|solutionrelative:nova-webapp.server\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11B0BE0B-75E8-4553-B980-AC93AED9924F}|Nova-WebApp.Server\\Nova-WebApp.Server.csproj|c:\\users\\ubwiw\\source\\repos\\nova-webapp\\nova-webapp.server\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11B0BE0B-75E8-4553-B980-AC93AED9924F}|Nova-WebApp.Server\\Nova-WebApp.Server.csproj|solutionrelative:nova-webapp.server\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11B0BE0B-75E8-4553-B980-AC93AED9924F}|Nova-WebApp.Server\\Nova-WebApp.Server.csproj|c:\\users\\ubwiw\\source\\repos\\nova-webapp\\nova-webapp.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11B0BE0B-75E8-4553-B980-AC93AED9924F}|Nova-WebApp.Server\\Nova-WebApp.Server.csproj|solutionrelative:nova-webapp.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -31,6 +39,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\Users\\ubwiw\\source\\repos\\Nova-WebApp\\Nova-WebApp.Server\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "Nova-WebApp.Server\\Controllers\\UsersController.cs",
+              "ToolTip": "C:\\Users\\ubwiw\\source\\repos\\Nova-WebApp\\Nova-WebApp.Server\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "Nova-WebApp.Server\\Controllers\\UsersController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-12T02:26:45.347Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\ubwiw\\source\\repos\\Nova-WebApp\\Nova-WebApp.Server\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Nova-WebApp.Server\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\ubwiw\\source\\repos\\Nova-WebApp\\Nova-WebApp.Server\\Models\\User.cs",
+              "RelativeToolTip": "Nova-WebApp.Server\\Models\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-12T02:22:10.672Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "Nova-WebApp.Server.csproj",
               "DocumentMoniker": "C:\\Users\\ubwiw\\source\\repos\\Nova-WebApp\\Nova-WebApp.Server\\Nova-WebApp.Server.csproj",
               "RelativeDocumentMoniker": "Nova-WebApp.Server\\Nova-WebApp.Server.csproj",
@@ -38,17 +72,18 @@
               "RelativeToolTip": "Nova-WebApp.Server\\Nova-WebApp.Server.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-04-05T21:31:19.415Z"
+              "WhenOpened": "2024-04-05T21:31:19.415Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\ubwiw\\source\\repos\\Nova-WebApp\\Nova-WebApp.Server\\Program.cs",
               "RelativeDocumentMoniker": "Nova-WebApp.Server\\Program.cs",
               "ToolTip": "C:\\Users\\ubwiw\\source\\repos\\Nova-WebApp\\Nova-WebApp.Server\\Program.cs",
               "RelativeToolTip": "Nova-WebApp.Server\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-05T21:13:04.511Z",
               "EditorCaption": ""

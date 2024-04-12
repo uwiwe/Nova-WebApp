@@ -1,4 +1,9 @@
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
+using Nova_WebApp.Server.Data;
 var builder = WebApplication.CreateBuilder(args);
+builder.Services.AddDbContext<Nova_WebAppServerContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("Nova_WebAppServerContext") ?? throw new InvalidOperationException("Connection string 'Nova_WebAppServerContext' not found.")));
 
 // Add services to the container.
 builder.Services.AddControllers();
