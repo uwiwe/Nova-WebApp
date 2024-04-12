@@ -13,8 +13,8 @@ builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
 
-app.UseDefaultFiles();
-app.UseStaticFiles();
+//app.UseDefaultFiles();// lo comente, sirvio pero si surgen problemas probar quitarlo. es para no ejecuta react
+//app.UseStaticFiles();// lo comente, sirvio pero si surgen problemas probar quitarlo. es para no ejecuta react
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
@@ -25,10 +25,24 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
+//app.UseCors("AllowReactDevOrigin"); // nuevo, no tocar
+
 app.UseAuthorization();
 
 app.MapControllers();
 
-app.MapFallbackToFile("/index.html");
+//app.MapFallbackToFile("/index.html"); // lo comente, sirvio pero si surgen problemas probar quitarlo. es para no ejecuta react
 
 app.Run();
+
+//builder.Services.AddCors(options => // nuevo, no tocar
+//{
+//    options.AddPolicy("AllowReactDevOrigin",
+//        builder => builder.WithOrigins("http://localhost:3000") // puerto de React
+//                           .AllowAnyHeader()
+//                           .AllowAnyMethod());
+//});
+
+//...
+
+//app.UseCors("AllowReactDevOrigin");
