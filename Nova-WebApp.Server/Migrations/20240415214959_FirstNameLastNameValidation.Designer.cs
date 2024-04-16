@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Nova_WebApp.Server.Data;
 
@@ -11,9 +12,11 @@ using Nova_WebApp.Server.Data;
 namespace Nova_WebApp.Server.Migrations
 {
     [DbContext(typeof(Nova_WebAppServerContext))]
-    partial class Nova_WebAppServerContextModelSnapshot : ModelSnapshot
+    [Migration("20240415214959_FirstNameLastNameValidation")]
+    partial class FirstNameLastNameValidation
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

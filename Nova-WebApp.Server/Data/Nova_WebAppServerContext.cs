@@ -15,5 +15,15 @@ namespace Nova_WebApp.Server.Data
         }
 
         public DbSet<Nova_WebApp.Server.Models.User> User { get; set; } = default!;
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            base.OnModelCreating(modelBuilder);
+
+            // configuracion para establecer automaticamente fecha de creacion
+            modelBuilder.Entity<User>()
+                .Property(u => u.CreatedDate)
+                .HasDefaultValueSql("GETUTCDATE()");  // "GETDATE()" para hora local
+        }
     }
 }

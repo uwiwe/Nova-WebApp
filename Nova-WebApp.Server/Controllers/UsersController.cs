@@ -14,6 +14,11 @@ namespace Nova_WebApp.Server.Controllers
     [ApiController]
     public class UsersController : ControllerBase
     {
+        //private readonly ILogger<UsersController> _logger; // to log whatever logging provider is configured..
+        //public UsersController(ILogger<UsersController> logger)
+        //{
+        //    _logger = logger;
+        //}
         private readonly Nova_WebAppServerContext _context;
 
         public UsersController(Nova_WebAppServerContext context)
