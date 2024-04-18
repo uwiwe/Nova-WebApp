@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "6FzTBenjzgJnicb5Ab+tPInuCtD5khlfg24kh89mpikiXLjIK/VS4viBTNaG9v64K5Go/YNYVrfjXgCn20SOwQ==",
+  "dgSpecHash": "vbED0gxMb0ro4xidln1CQXgXxdsJXc3rFhuw6y/Y7SlA1VwOejb2ayDe2FkDdzLmxg42vSy9F+QOcSc+CasOnA==",
   "success": true,
   "projectFilePath": "C:\\Users\\ubwiw\\source\\repos\\Nova-WebApp\\Nova-WebApp.Server\\Nova-WebApp.Server.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\ubwiw\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\ubwiw\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\ubwiw\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
     "C:\\Users\\ubwiw\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",

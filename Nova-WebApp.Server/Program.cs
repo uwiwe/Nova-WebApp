@@ -11,6 +11,7 @@ builder.Services.AddControllers(); // es el predeterminado pero lo comento para 
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies()); //Regristrando AutoMapper: buscara todas las clases que hereden de Profile en los ensamblajes cargados y las registrara automaticamente
 
 var app = builder.Build();
 
