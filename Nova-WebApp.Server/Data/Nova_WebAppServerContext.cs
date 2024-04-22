@@ -14,7 +14,7 @@ namespace Nova_WebApp.Server.Data
         {
         }
 
-        public DbSet<Nova_WebApp.Server.Models.User> User { get; set; } = default!;
+        public DbSet<User> User { get; set; } = default!;
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -24,6 +24,26 @@ namespace Nova_WebApp.Server.Data
             modelBuilder.Entity<User>()
                 .Property(u => u.CreatedDate)
                 .HasDefaultValueSql("GETUTCDATE()");  // "GETDATE()" para hora local
+
+            // unique index for email and phone
+            modelBuilder.Entity<User>()
+                .HasIndex(u => u.EmailAddress)
+                .IsUnique();  // Asegura que EmailAddress sea único en la base de datos
+
+            modelBuilder.Entity<User>()
+                .HasIndex(u => u.PhoneNumber)
+                .IsUnique();  // Asegura que PhoneNumber sea único en la base de datos
+        }
+
+        // Metodo para verificar si el correo electronico ya esta registrado
+        public async Task<bool> EmailExistsAsync(string email)
+        {
+            return await User.AnyAsync(u => u.EmailAddress == email);
+        }
+
+        public async Task<bool> PhoneNumberExistsAsync(string phoneNumber)
+        {
+            return await User.AnyAsync(u => u.PhoneNumber == phoneNumber);
         }
     }
 }
