@@ -45,25 +45,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{fbcae063-e2c0-4ab1-a516-996ea3dafb72}"
-            },
-            {
-              "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "dbo.User [Data]",
-              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/Nova_WebAppServerContext_fefd4c71_eb31_4bee_8aef_1a71ad3502a1/True/SqlTable/dbo.User.sql",
-              "ToolTip": "dbo.User [Data]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2024-04-22T16:13:33.075Z",
-              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -75,8 +61,7 @@
               "RelativeToolTip": "Nova-WebApp.Server\\Models\\User.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-12T02:22:10.672Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-12T02:22:10.672Z"
             },
             {
               "$type": "Document",
@@ -88,8 +73,7 @@
               "RelativeToolTip": "Nova-WebApp.Server\\Controllers\\UsersController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAADQAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-12T17:56:25.331Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-12T17:56:25.331Z"
             },
             {
               "$type": "Document",
@@ -101,8 +85,7 @@
               "RelativeToolTip": "Nova-WebApp.Server\\DTOs\\Users\\UserOutputDto.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-16T16:49:02.024Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-16T16:49:02.024Z"
             },
             {
               "$type": "Document",
@@ -114,8 +97,7 @@
               "RelativeToolTip": "Nova-WebApp.Server\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAADQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-05T21:13:04.511Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-05T21:13:04.511Z"
             },
             {
               "$type": "Document",
@@ -125,7 +107,7 @@
               "RelativeDocumentMoniker": "Nova-WebApp.Server\\Data\\Nova_WebAppServerContext.cs",
               "ToolTip": "C:\\Users\\ubwiw\\source\\repos\\Nova-WebApp\\Nova-WebApp.Server\\Data\\Nova_WebAppServerContext.cs",
               "RelativeToolTip": "Nova-WebApp.Server\\Data\\Nova_WebAppServerContext.cs",
-              "ViewState": "AQIAAAIAAAAAAAAAAAAswBIAAAAvAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-12T17:48:00.911Z",
               "EditorCaption": ""
@@ -140,8 +122,7 @@
               "RelativeToolTip": "Nova-WebApp.Server\\DTOs\\Users\\UserInputDto.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-16T16:48:46.256Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-16T16:48:46.256Z"
             },
             {
               "$type": "Document",
@@ -153,8 +134,7 @@
               "RelativeToolTip": "Nova-WebApp.Server\\Profiles\\UserProfile.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-16T16:44:15.632Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-16T16:44:15.632Z"
             },
             {
               "$type": "Document",
@@ -166,8 +146,20 @@
               "RelativeToolTip": "Nova-WebApp.Server\\Nova-WebApp.Server.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-04-16T16:44:26.712Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-16T16:44:26.712Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{fbcae063-e2c0-4ab1-a516-996ea3dafb72}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "dbo.User [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/Nova_WebAppServerContext_fefd4c71_eb31_4bee_8aef_1a71ad3502a1/True/SqlTable/dbo.User.sql",
+              "ToolTip": "dbo.User [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-04-22T16:13:33.075Z"
             }
           ]
         }
