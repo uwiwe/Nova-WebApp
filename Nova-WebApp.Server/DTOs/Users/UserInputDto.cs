@@ -29,7 +29,5 @@ namespace Nova_WebApp.Server.DTOs.Users
         [StringLength(64, MinimumLength = 8, ErrorMessage = "La contraseña debe tener entre 8 y 64 caracteres.")]
         public string Password { get; set; }
 
-        public bool AcceptTerms { get; set; }
-        public bool AcceptNewsletter { get; set; }
     }
 }
