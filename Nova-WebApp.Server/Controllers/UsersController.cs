@@ -9,6 +9,7 @@ using Nova_WebApp.Server.Data;
 using Nova_WebApp.Server.Models;
 using Nova_WebApp.Server.DTOs.Users;
 using AutoMapper;
+using BCrypt.Net;
 
 namespace Nova_WebApp.Server.Controllers
 {
@@ -85,6 +86,11 @@ namespace Nova_WebApp.Server.Controllers
         [HttpPost]
         public async Task<IActionResult> RegisterUser(UserInputDto userInputDto)
         {
+            if (!userInputDto.AcceptTerms)
+            {
+                return BadRequest("Debe aceptar los términos y condiciones para registrarse.");
+            }
+
             if (await _context.EmailExistsAsync(userInputDto.EmailAddress))
             {
                 return BadRequest("Este correo electrónico ya está en uso.");
@@ -95,7 +101,13 @@ namespace Nova_WebApp.Server.Controllers
                 return BadRequest("Este número de teléfono ya está en uso.");
             }
 
+            // Hashing the password
+            string hashedPassword = BCrypt.Net.BCrypt.HashPassword(userInputDto.Password);
+
             var user = _mapper.Map<User>(userInputDto);
+            user.Password = hashedPassword; // Store the hashed password
+            user.AcceptNewsletter = userInputDto.AcceptNewsletter; // Guardar la preferencia de newsletter
+
             _context.User.Add(user);
             try
             {
